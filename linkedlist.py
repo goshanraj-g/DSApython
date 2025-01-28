@@ -122,15 +122,4 @@ class LinkedList:
             temp.next = before
             before = temp
             temp = after
-    
-my_linked_list = LinkedList(11)
-my_linked_list.append(3)
-my_linked_list.append(23)
-my_linked_list.append(7)
-
-print(my_linked_list.remove(2), '\n')
-
-my_linked_list.print_list()
-
-
         
